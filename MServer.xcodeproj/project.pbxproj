@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DEA936C821FD3C03001928DF /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEA936C721FD3C03001928DF /* main.mm */; };
 		DEA936CF21FD3F34001928DF /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA936CE21FD3F34001928DF /* NetworkUtil.m */; };
+		DECDD1A521FE249200F26600 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = DECDD1A421FE249200F26600 /* Server.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DEA936C721FD3C03001928DF /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		DEA936CE21FD3F34001928DF /* NetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
 		DEA936D021FD3F3F001928DF /* NetworkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
+		DECDD1A421FE249200F26600 /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		DECDD1A621FE24A500F26600 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				DEA936C721FD3C03001928DF /* main.mm */,
 				DEA936CE21FD3F34001928DF /* NetworkUtil.m */,
 				DEA936D021FD3F3F001928DF /* NetworkUtil.h */,
+				DECDD1A421FE249200F26600 /* Server.m */,
+				DECDD1A621FE24A500F26600 /* Server.h */,
 			);
 			path = MServer;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA936CF21FD3F34001928DF /* NetworkUtil.m in Sources */,
+				DECDD1A521FE249200F26600 /* Server.m in Sources */,
 				DEA936C821FD3C03001928DF /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
