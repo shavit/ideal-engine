@@ -8,6 +8,7 @@
 
 #include <iostream>
 #import "Server.h"
+#import "Client.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...

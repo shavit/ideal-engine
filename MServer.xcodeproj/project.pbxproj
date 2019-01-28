@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE64922021FF4C8C00D98257 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64921F21FF4C8C00D98257 /* Client.m */; };
 		DEA936C821FD3C03001928DF /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEA936C721FD3C03001928DF /* main.mm */; };
 		DEA936CF21FD3F34001928DF /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA936CE21FD3F34001928DF /* NetworkUtil.m */; };
 		DECDD1A521FE249200F26600 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = DECDD1A421FE249200F26600 /* Server.m */; };
@@ -25,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE64921F21FF4C8C00D98257 /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		DE64922121FF4C9300D98257 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		DE64922221FF4ED000D98257 /* ErrorCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorCodes.h; sourceTree = "<group>"; };
 		DEA936C421FD3C03001928DF /* MServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA936C721FD3C03001928DF /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		DEA936CE21FD3F34001928DF /* NetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
@@ -68,6 +72,9 @@
 				DEA936D021FD3F3F001928DF /* NetworkUtil.h */,
 				DECDD1A421FE249200F26600 /* Server.m */,
 				DECDD1A621FE24A500F26600 /* Server.h */,
+				DE64921F21FF4C8C00D98257 /* Client.m */,
+				DE64922121FF4C9300D98257 /* Client.h */,
+				DE64922221FF4ED000D98257 /* ErrorCodes.h */,
 			);
 			path = MServer;
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 			files = (
 				DEA936CF21FD3F34001928DF /* NetworkUtil.m in Sources */,
 				DECDD1A521FE249200F26600 /* Server.m in Sources */,
+				DE64922021FF4C8C00D98257 /* Client.m in Sources */,
 				DEA936C821FD3C03001928DF /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

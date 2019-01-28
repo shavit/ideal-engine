@@ -10,15 +10,7 @@
 #define Server_h
 
 #import <Foundation/Foundation.h>
-
-typedef NS_ENUM(NSUInteger, ServerErrorCode) {
-    NOERROR,
-    SOCKETERROR,
-    BINDERROR,
-    LISTENERROR,
-    SOCKETCREATERROR,
-    ACCEPTINGERROR
-};
+#import "ErrorCodes.h"
 
 @interface SocketServer : NSObject
 
