@@ -12,13 +12,21 @@
 #import <Foundation/Foundation.h>
 #import "ErrorCodes.h"
 
+typedef NS_ENUM(NSUInteger, ServerType) {
+    SERVERTYPESTRING,
+    SERVERTYPEDATA
+};
+
+#define NOTIFICATIONSTRING @"receivedmessage"
+#define NOTIFICATIONDATA @"receiveddata"
+
 @interface SocketServer : NSObject
 
 @property (nonatomic) CFSocketRef sRef;
 
 @property (nonatomic) int listenfd, errorCode;
 
-- (instancetype) initOnPort: (int)port;
+- (instancetype) initOnPort: (int)port serverType:(int)serverType;
 
 @end
 
