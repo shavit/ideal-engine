@@ -54,4 +54,22 @@
     return [NSString stringWithUTF8String:buf];
 }
 
+- (ssize_t)writeDataToSocket:(CFSocketRef)lsockfd data:(NSData *)data {
+    ssize_t n;
+    self.errorCode = NOERROR;
+    const UInt8 *buf = (const UInt8 *)[data bytes];
+    CFSocketNativeHandle sock = CFSocketGetNative (self.sockfd);
+    
+    if ((n = send(sock, buf, [data length], 0)) <= 0) {
+        self.errorCode = WRITEERROR;
+        n = -1;
+    }
+    
+    CFSocketInvalidate(lsockfd);
+    CFRelease(lsockfd);
+    lsockfd = NULL;
+    
+    return n;
+}
+
 @end

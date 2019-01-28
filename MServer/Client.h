@@ -24,6 +24,8 @@
 
 - (NSString *) writtenToSocket:(CFSocketRef)sockfdNum withChar:(NSString *)vptr;
 
+- (ssize_t) writeDataToSocket:(CFSocketRef)lsockfd data: (NSData *)data;
+
 @end
 
 #endif /* Client_h */

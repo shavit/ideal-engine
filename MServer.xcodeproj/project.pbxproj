@@ -33,6 +33,7 @@
 		DEA936C721FD3C03001928DF /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		DEA936CE21FD3F34001928DF /* NetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
 		DEA936D021FD3F3F001928DF /* NetworkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
+		DEC4360D21FFAA3400C1CD9B /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 		DECDD1A421FE249200F26600 /* Server.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
 		DECDD1A621FE24A500F26600 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +68,7 @@
 		DEA936C621FD3C03001928DF /* MServer */ = {
 			isa = PBXGroup;
 			children = (
+				DEC4360D21FFAA3400C1CD9B /* demo.mp4 */,
 				DEA936C721FD3C03001928DF /* main.mm */,
 				DEA936CE21FD3F34001928DF /* NetworkUtil.m */,
 				DEA936D021FD3F3F001928DF /* NetworkUtil.h */,
